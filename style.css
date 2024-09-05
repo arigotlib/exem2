@@ -4,12 +4,19 @@
     background-color:#003300 ; 
     margin: 0;
 }
+body{
+    background-color:#F0F0F0 ; 
+    font-family: Arial, Helvetica, sans-serif
+}
+#body{
+    background-color: #F4F4F4;
+    font-family: Arial, Helvetica, sans-serif
+}
 #navIndex a{
     text-decoration: none;
     color: white;
     text-align: center;
     flex:1;
-    font-family: Arial, Helvetica, sans-serif
 }
 #WelcomeBody{
     display: flex;
@@ -17,17 +24,78 @@
     align-items: center;
     background-color:#004D00;
 }
+#WelcomeBody a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+    flex:1;
+}
 #h1Index{
     font-size: 30px;
     color:#FFFFFF;
     font-family: Arial, Helvetica, sans-serif
 }
-body{
-    background-color:#F0F0F0 ; 
-}
+
 .boxes{
     background-color:#FFFFFF;
     margin: 1rem;
     padding: 3px;
     border-radius: 8px;
+}
+.card{
+    background-color:#E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+    margin: 1rem;
+    padding:  40px 10px;
+    border-radius: 8px;
+
+}
+.card:hover{
+    background-color:#CCCCCC;
+    
+}
+.Physical{
+    background-color: #FF9999;
+}
+.Tactical{
+    background-color:#99CCFF ;
+}
+.Tachnical{
+    background-color:#FFFF99 ;
+}
+.teacher{
+    display: flex;
+    align-self: end;
+}
+#filds{
+    background-attachment: #e6e6e6aa;
+     display: flex;
+    flex-direction: column;
+    align-self: center; 
+    margin: 1rem;
+    padding:  40px 10px;
+    border-radius: 8px;
+}
+#signupButton{
+    background-color: #195319;
+    color: white; 
+    padding: 5px 10px;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    display: inline-block;
+    text-align: left;
+}
+footer {
+    background-color:#004D00; 
+    color: white; 
+    text-align: center; 
+    padding: 1px 0; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
